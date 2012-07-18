@@ -1,5 +1,4 @@
 var humbug = require('../');
-var fs = require('fs');
 
 (function (x) {
     var z = 33;
