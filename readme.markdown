@@ -2,6 +2,9 @@
 
 Debug inline state with a streaming repl.
 
+This is mad science. You should probably be using
+[the built-in node debugger](http://nodejs.org/api/debugger.html).
+
 [![build status](https://secure.travis-ci.org/substack/node-humbug.png)](http://travis-ci.org/substack/node-humbug)
 
 # example
