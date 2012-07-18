@@ -1,6 +1,6 @@
 # humbug
 
-Debug inline state with a streamable repl.
+Debug inline state with a streaming repl.
 
 # example
 
