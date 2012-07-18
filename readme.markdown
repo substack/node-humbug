@@ -2,6 +2,8 @@
 
 Debug inline state with a streaming repl.
 
+[![build status](https://secure.travis-ci.org/substack/node-humbug.png)](http://travis-ci.org/substack/node-humbug)
+
 # example
 
 ## open a repl for some nested state
