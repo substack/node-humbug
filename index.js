@@ -47,9 +47,16 @@ module.exports = '(' + function () {
         repl.start({
             input : input,
             output : output,
-            eval : evaluator
+            eval : function (s, _, _, cb) {
+                try {
+                    evaluator(s, cb)
+                }
+                catch (err) {
+                    cb(err);
+                }
+            }
         });
         
         return duplex;
-    })(function (s, _, _, cb) { cb(eval(s)) });
+    })(function (s, cb) { cb(eval(s)) });
 } + ')()';

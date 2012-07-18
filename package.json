@@ -1,6 +1,6 @@
 {
     "name" : "humbug",
-    "version" : "0.0.0",
+    "version" : "0.0.1",
     "description" : "debug inline state with a streaming repl",
     "main" : "index.js",
     "bin" : {},

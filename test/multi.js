@@ -31,6 +31,6 @@ test('multi-line expressions', function (t) {
     input.emit('end');
     
     process.nextTick(function () {
-        t.equal(data, '> ... \n3\n> ');
+        t.equal(data, '> ... 3\n> ');
     });
 });
